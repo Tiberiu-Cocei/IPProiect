@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{56504EAE-2DA5-4C4C-B329-7ADF0CBD9CB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Business", "02 - Business", "{E230D4F2-AFD2-4776-8DF3-3C7BD1936F7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - DataAccess", "03 - DataAccess", "{A5020A73-9BF3-4A00-ABC5-7539FD1C2294}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99 - Tests", "99 - Tests", "{07010096-CDA5-4013-B330-A1DC0AC2D951}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gradeio.Quiz.WebApi", "Gradeio.Quiz.WebApi\Gradeio.Quiz.WebApi.csproj", "{6444441A-D63D-4DDD-9CB7-122D35D1763A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gradeio.Quiz.Business", "Gradeio.Quiz.Business\Gradeio.Quiz.Business.csproj", "{FBAC7968-849A-4A92-891C-1C548446A0BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gradeio.Quiz.DataAccess", "Gradeio.Quiz.DataAccess\Gradeio.Quiz.DataAccess.csproj", "{3D7B6979-34C0-4F57-972E-32DEEA72A670}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Domain", "04 - Domain", "{692B7A53-EEEB-4219-88F1-A315252AAF4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gradeio.Quiz.Domain", "Gradeio.Quiz.Domain\Gradeio.Quiz.Domain.csproj", "{0D209F1C-F0DA-4109-AB1A-17A8D843A2B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gradeio.Quiz.Tests", "Gradeio.Quiz.Tests\Gradeio.Quiz.Tests.csproj", "{0776FFE3-FF32-4DD4-AD55-BAF2E24BE2DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{7407E129-88F4-4C86-AB0C-9CDE69FC2416}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6444441A-D63D-4DDD-9CB7-122D35D1763A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6444441A-D63D-4DDD-9CB7-122D35D1763A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6444441A-D63D-4DDD-9CB7-122D35D1763A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6444441A-D63D-4DDD-9CB7-122D35D1763A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBAC7968-849A-4A92-891C-1C548446A0BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBAC7968-849A-4A92-891C-1C548446A0BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBAC7968-849A-4A92-891C-1C548446A0BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBAC7968-849A-4A92-891C-1C548446A0BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7B6979-34C0-4F57-972E-32DEEA72A670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7B6979-34C0-4F57-972E-32DEEA72A670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7B6979-34C0-4F57-972E-32DEEA72A670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7B6979-34C0-4F57-972E-32DEEA72A670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D209F1C-F0DA-4109-AB1A-17A8D843A2B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D209F1C-F0DA-4109-AB1A-17A8D843A2B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D209F1C-F0DA-4109-AB1A-17A8D843A2B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D209F1C-F0DA-4109-AB1A-17A8D843A2B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0776FFE3-FF32-4DD4-AD55-BAF2E24BE2DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0776FFE3-FF32-4DD4-AD55-BAF2E24BE2DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0776FFE3-FF32-4DD4-AD55-BAF2E24BE2DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0776FFE3-FF32-4DD4-AD55-BAF2E24BE2DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6444441A-D63D-4DDD-9CB7-122D35D1763A} = {56504EAE-2DA5-4C4C-B329-7ADF0CBD9CB1}
+		{FBAC7968-849A-4A92-891C-1C548446A0BA} = {E230D4F2-AFD2-4776-8DF3-3C7BD1936F7E}
+		{3D7B6979-34C0-4F57-972E-32DEEA72A670} = {A5020A73-9BF3-4A00-ABC5-7539FD1C2294}
+		{0D209F1C-F0DA-4109-AB1A-17A8D843A2B9} = {692B7A53-EEEB-4219-88F1-A315252AAF4D}
+		{0776FFE3-FF32-4DD4-AD55-BAF2E24BE2DB} = {07010096-CDA5-4013-B330-A1DC0AC2D951}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE63ED35-07D6-4927-8758-452530FB50DD}
+	EndGlobalSection
+EndGlobal
