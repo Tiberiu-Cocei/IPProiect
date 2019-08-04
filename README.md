@@ -11,22 +11,6 @@ Team members:
 5. Andrei Miron  
 6. Pirlog Marcel
 
-Front-End Development teams:  
-Code-Bakers:  
-1. Carbune Bogdan  
-2. Ilie Andrei  
-3. Necula Alexandru  
-4. Andreea Arsene  
-5. Dolhescu Alexandru  
-
-
-Red Ninjas  
-1. Giurgila Alexandru  
-2. Gliga Dumitru  
-3. Ganeanu Tudor  
-4. Pricop Adelin  
-5. Mavriche Raluca 
-
 Quiz management functionalities
 
 Quiz management
